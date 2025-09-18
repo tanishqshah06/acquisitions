@@ -52,7 +52,10 @@ const securityMiddleware = async (req, res, next) => {
       name: `${role}-rate-limit` 
     }));
         
-    const decision = await client.protect(req);
+    const decision = await client.protect(req, {
+      ip: req.ip,
+      headers: req.headers,
+    });
         
     // In development, log but don't block bot requests
     if(decision.isDenied() && decision.reason.isBot()) {

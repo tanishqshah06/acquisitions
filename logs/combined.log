@@ -187,3 +187,58 @@
 {"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
 {"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
 {"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"User tanishq@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: tanishq@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:51:02 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 100 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: tanishq@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Admin access granted to tanishq@gmail.com for DELETE /2","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Admin user tanishq@gmail.com (ID: 3) deleting user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to delete user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 2 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"User with ID: 2 deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"Successfully deleted user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:51:47 +0000] \"DELETE /api/users/2 HTTP/1.1\" 200 109 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:31:44 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:31:44 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:31:44 +0000] \"GET /nonexistent HTTP/1.1\" 404 28 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:32:48 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:32:48 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:32:48 +0000] \"GET /nonexistent HTTP/1.1\" 404 28 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:35:18 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:35:18 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2025:20:35:18 +0000] \"GET /nonexistent HTTP/1.1\" 404 28 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
