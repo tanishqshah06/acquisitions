@@ -89,3 +89,101 @@
 {"level":"info","message":"User tanishq1@gmail.com created successfully","service":"acquisitions-api"}
 {"level":"info","message":"User registered successfully: tanishq1@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [18/Sep/2025:13:05:14 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 88 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:13:36:56 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:13:36:56 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:13:36:56 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"error","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:13:37:26 +0000] \"GET /api/users HTTP/1.1\" 500 376 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch users from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found 4 users","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved 4 users","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:13:41:58 +0000] \"GET /api/users HTTP/1.1\" 200 655 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:37:41 +0000] \"GET /2 HTTP/1.1\" 404 140 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 2 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:37:57 +0000] \"GET /api/users/2 HTTP/1.1\" 200 198 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:38:20 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 2 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:39:13 +0000] \"GET /api/users/2 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:39:13 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 2 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:39:16 +0000] \"GET /api/users/2 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:39:17 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 3 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:39:23 +0000] \"GET /api/users/3 HTTP/1.1\" 200 197 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:39:23 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:41:15 +0000] \"GET /api/auth/2 HTTP/1.1\" 404 149 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 2 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 2","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:41:35 +0000] \"GET /api/users/2 HTTP/1.1\" 200 198 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:42:11 +0000] \"DELETE /api/users/2 HTTP/1.1\" 401 65 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 3 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:43:36 +0000] \"GET /api/users/3 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:43:36 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 3 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:43:39 +0000] \"GET /api/users/3 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:43:39 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:44:18 +0000] \"GET /api/users/3 HTTP/1.1\" 401 65 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:44:18 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch user with ID: 3 from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved user with ID: 3","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:48:59 +0000] \"GET /api/users/3 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:48:59 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:49:21 +0000] \"DELETE /api/users/2 HTTP/1.1\" 401 65 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"Attempting to fetch users from database","service":"acquisitions-api"}
+{"level":"info","message":"Database query successful, found 4 users","service":"acquisitions-api"}
+{"level":"info","message":"Successfully retrieved 4 users","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [18/Sep/2025:19:49:33 +0000] \"GET /api/users HTTP/1.1\" 200 655 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Database URL validated successfully","service":"acquisitions-api"}
+{"level":"info","message":"Configuring database for Neon Cloud development environment","service":"acquisitions-api"}
+{"level":"info","message":"Database connection initialized successfully","service":"acquisitions-api"}
