@@ -7,12 +7,12 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: kubernetes-demo-api
+  IMAGE_NAME: acquisitions
 
 jobs:
   docker:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -36,14 +36,12 @@ jobs:
             type=ref,event=branch
             type=sha,prefix={{branch}}-
             type=raw,value=latest,enable={{is_default_branch}}
-            type=raw,value=prod-{{date 'YYYYMMDD-HHmmss' tz='UTC'}}
+            type=raw,value=prod-{{date 'YYYYMMDD-HHmmss'}}
           labels: |
             org.opencontainers.image.title=${{ env.IMAGE_NAME }}
             org.opencontainers.image.description=Acquisitions API production image
             org.opencontainers.image.url=https://github.com/${{ github.repository }}
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
-            org.opencontainers.image.version=${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
-            org.opencontainers.image.created=${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.created'] }}
             org.opencontainers.image.revision=${{ github.sha }}
 
       - name: Build and push Docker image
