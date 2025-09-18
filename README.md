@@ -1,5 +1,6 @@
 # Acquisitions Application - Dockerized with Neon Database
 
+
 A Node.js Express application configured to work with both Neon Local (development) and Neon Cloud (production) databases using Docker.
 
 ## 🏗️ Architecture Overview
