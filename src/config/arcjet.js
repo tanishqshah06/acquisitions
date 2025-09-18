@@ -1,9 +1,7 @@
-import arcjet, { shield, detectBot, tokenBucket, slidingWindow } from '@arcjet/node';
-import express from 'express';
+import arcjet, { shield, detectBot, slidingWindow } from '@arcjet/node';
 
 // Environment-specific configuration
 const isDevelopment = process.env.NODE_ENV === 'development';
-const isProduction = process.env.NODE_ENV === 'production';
 
 // Development configuration - more permissive
 const developmentRules = [
@@ -22,8 +20,8 @@ const developmentRules = [
   slidingWindow({
     mode: 'DRY_RUN',
     interval: '10s',
-    max: 50
-  })
+    max: 50,
+  }),
 ];
 
 // Production configuration - strict security
@@ -33,16 +31,13 @@ const productionRules = [
   // Create a bot detection rule
   detectBot({
     mode: 'LIVE',
-    allow: [
-      'CATEGORY:SEARCH_ENGINE',
-      'CATEGORY:PREVIEW',
-    ],
+    allow: ['CATEGORY:SEARCH_ENGINE', 'CATEGORY:PREVIEW'],
   }),
   slidingWindow({
     mode: 'LIVE',
     interval: '2s',
-    max: 5
-  })
+    max: 5,
+  }),
 ];
 
 const aj = arcjet({

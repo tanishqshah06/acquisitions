@@ -14,12 +14,12 @@ export const jwtToken = {
       throw new Error('Failed to authenticate token');
     }
   },
-  verify: (token) => {
+  verify: token => {
     try {
       return jwt.verify(token, JWT_SECRET);
     } catch (e) {
       logger.error('Failed to authenticate token', e);
       throw new Error('Failed to authenticate token');
     }
-  }
+  },
 };

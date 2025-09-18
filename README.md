@@ -34,7 +34,7 @@ cp .env.development .env.dev
 # Edit .env.dev with your Neon credentials
 # Update the following values:
 # NEON_API_KEY=your_actual_neon_api_key
-# NEON_PROJECT_ID=your_actual_project_id  
+# NEON_PROJECT_ID=your_actual_project_id
 # PARENT_BRANCH_ID=your_parent_branch_id
 # ARCJET_KEY=your_actual_arcjet_key
 ```
@@ -108,6 +108,7 @@ docker-compose -f docker-compose.prod.yml down
 ## 🔧 Environment Variables Reference
 
 ### Development (.env.development)
+
 ```bash
 NODE_ENV=development
 PORT=3000
@@ -122,6 +123,7 @@ ENABLE_LOGGING=true
 ```
 
 ### Production (.env.production)
+
 ```bash
 NODE_ENV=production
 PORT=3000
@@ -164,12 +166,14 @@ docker-compose -f docker-compose.prod.yml logs -f app
 ### Common Development Issues
 
 1. **Neon Local not starting**:
+
    ```bash
    # Check if your Neon credentials are correct
    docker-compose --env-file .env.dev -f docker-compose.dev.yml logs neon-local
    ```
 
 2. **Application can't connect to database**:
+
    ```bash
    # Verify network connectivity
    docker-compose --env-file .env.dev -f docker-compose.dev.yml exec app ping neon-local
@@ -213,6 +217,7 @@ docker-compose -f docker-compose.dev.yml logs -f neon-local
 ### Health Checks
 
 Both environments include health checks:
+
 - Application health: `GET /health`
 - Database health: Automatic health checks in Docker Compose
 
@@ -243,6 +248,7 @@ jobs:
 ### Scaling
 
 For production scaling, consider:
+
 - Using Docker Swarm or Kubernetes
 - Load balancing multiple application instances
 - Connection pooling for database connections
@@ -251,11 +257,13 @@ For production scaling, consider:
 ## 🔐 Security Considerations
 
 ### Development Security
+
 - Neon Local creates ephemeral branches (no persistent sensitive data)
 - Local network isolation via Docker networks
 - Environment variable isolation
 
 ### Production Security
+
 - Non-root user execution
 - Read-only filesystem
 - Resource limits and security options

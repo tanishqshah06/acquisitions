@@ -7,12 +7,12 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: acquisitions
+  IMAGE_NAME: kubernetes-demo-api
 
 jobs:
   docker:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
